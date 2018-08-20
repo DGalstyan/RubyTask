@@ -59,7 +59,7 @@ If you used the "Rails Composer":http://railsapps.github.io/rails-composer/ tool
 If not, you should run the @bundle install@ command to install the required gems on your computer:
 
 <pre>
-$ bundle install
+> $ bundle install
 </pre>
 
 You can check which gems are installed on your computer with:
@@ -81,7 +81,7 @@ $ rake db:seed
 
 Use @rake db:reset@ if you want to empty and reseed the database.
 
-h2. Test the App
+## Test the App
 
 You can check that your application runs properly by entering the command:
 
@@ -89,7 +89,7 @@ You can check that your application runs properly by entering the command:
 $ rails server
 </pre>
 
-To see your application in action, open a browser window and navigate to "http://localhost:3000/":http://localhost:3000.
+To see your application in action, open a browser window and navigate to "http://localhost:3000/"
 
 You should see a home page with a navigation bar.
 
@@ -99,8 +99,9 @@ You'll see a page with a form that is used to register a new account.
 
 Click the "Sign in" and login with admin user.
 
-1. Username: admin@admin.com
-2. Password: admin123
+> Username: admin@admin.com
+
+> Password: admin123
 
 You'll see a page with users.
 
