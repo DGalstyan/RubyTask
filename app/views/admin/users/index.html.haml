@@ -1,0 +1,21 @@
+%div.form-group
+  = simple_search_form_for @ransack, @ransack_params do |f|
+    = f.input :email_cont, autofocus: true
+    = f.input :role_cont
+    = f.submit 'Search', class: 'btn btn-lg btn-primary btn-block'
+
+%table.table
+  %thead
+    %tr
+      %th= sort_link @ransack, :email
+      %th= sort_link @ransack, :role
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= user.email
+        %td= user.role
+    - if @users.empty?
+      %tr
+        %td{colspan: 2} No users were found.
+
+= paginate @users

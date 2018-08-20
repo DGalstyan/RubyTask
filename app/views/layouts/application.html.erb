@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Ruby</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= javascript_include_tag 'application' %>
+</head>
+<body class="<%= [controller_name, action_name].join(' ') %>">
+
+
+<%= render 'navigation/top_nav' %>
+
+
+<div>
+  <div class="container">
+    <%= yield %>
+  </div>
+</div>
+
+</div>
+
+<%= render 'shared/flash' %>
+<%= render 'navigation/bottom_nav' %>
+</body>
+</html>
