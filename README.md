@@ -1,11 +1,11 @@
-== Rails Single Page Task
+# Rails Single Page Task
 
 The application uses:
 
 * "Devise":https://github.com/plataformatec/devise for user management and authentication
 * "Bootstrap":http://getbootstrap.com/ or "Foundation":http://foundation.zurb.com/ front-end frameworks
 
-h2. Dependencies
+## Dependencies
 
 Before generating your application, you will need:
 
@@ -16,20 +16,20 @@ Getting the Application
 Local
 You have several options for getting the code on your own machine. You can fork or clone.
 
-h4. Database
+#### Database
 
 Use SQLite for development on Mac or Linux.
 
-h4. Template Engine
+#### Template Engine
 
 The example application uses the default "ERB" Rails template engine and Haml template engine.
 
 
-h3. Use RVM
+### Use RVM
 
 I recommend using "RVM":https://rvm.io/, the Ruby Version Manager, to create a project-specific gemset for the application.
 
-h3. Gems
+### Gems
 
 Here are the gems used by the application:
 
@@ -52,7 +52,7 @@ Just type rubocop in a Ruby project's folder and watch the magic happen.
 $ rubocop
 </pre>
 
-h3. Install the Required Gems
+### Install the Required Gems
 
 If you used the "Rails Composer":http://railsapps.github.io/rails-composer/ tool to generate the example app, the application template script has already run the @bundle install@ command.
 
@@ -70,7 +70,7 @@ $ gem list
 
 Keep in mind that you have installed these gems locally. When you deploy the app to another server, the same gems (and versions) must be available.
 
-h3. Set the Database
+### Set the Database
 
 Prepare the database and add the default user to the database by running the commands:
 
@@ -104,7 +104,7 @@ Click the "Sign in" and login with admin user.
 
 You'll see a page with users.
 
-h3. RSpec Test Suite
+### RSpec Test Suite
 
 The application contains a suite of RSpec tests. To run:
 
