@@ -79,7 +79,7 @@ $ rake db:migrate
 $ rake db:seed
 </pre>
 
-Use @rake db:reset@ if you want to empty and reseed the database.
+Use rake db:reset if you want to empty and reseed the database.
 
 ## Test the App
 
