@@ -3,7 +3,7 @@
 The application uses:
 
 * "Devise":https://github.com/plataformatec/devise for user management and authentication
-* "Bootstrap":http://getbootstrap.com/ or "Foundation":http://foundation.zurb.com/ front-end frameworks
+* "Bootstrap":http://getbootstrap.com/ front-end frameworks
 
 ## Dependencies
 
