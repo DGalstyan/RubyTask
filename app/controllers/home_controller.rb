@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
-  before_action :admin?
+  before_action :admin? # before action check if user is admin
 
   def index
-    @user = current_user
+    @user = current_user # get current user
   end
 
   def admin?

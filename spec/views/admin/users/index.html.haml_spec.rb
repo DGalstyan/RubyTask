@@ -1,6 +1,7 @@
 require "spec_helper"
 
 describe "admin/users/index", type: :view do
+  # check index page and renders a list of users
   it "renders a list of users" do
     @ransack_params = params[:q] || {}
     @ransack = User.ransack

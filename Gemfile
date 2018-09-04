@@ -33,10 +33,13 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # User authentication
 gem 'devise'
+# Token Authenticatable
 gem 'devise-token_authenticatable'
 
 gem 'haml-rails'
+# Object-based searching
 gem 'ransack'
+# Simple Form aims to be as flexible as possible while helping you with powerful components to create your forms.
 gem 'simple_form', '3.1.0'
 gem 'simple_form_ransack', '0.0.8'
 
@@ -46,7 +49,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'forgery'
   gem 'rspec-rails'
+  # RuboCop is a Ruby static code analyzer and code formatter.
   gem 'rubocop', require: false
 end
-
+# A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
 gem 'kaminari', '0.16.3'
